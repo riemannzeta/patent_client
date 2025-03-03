@@ -31,7 +31,7 @@ def urlescape(s: str) -> str:
 
 
 class ODPApi:
-    base_url = "https://beta-api.uspto.gov"
+    base_url = "https://api.uspto.gov"
 
     def __init__(self):
         if SETTINGS.odp_api_key is None:
