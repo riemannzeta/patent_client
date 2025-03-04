@@ -124,7 +124,7 @@ class ODPApi:
         return [
             ForeignPriority(**foreign_priority)
             for foreign_priority in response.json()["patentFileWrapperDataBag"][0]["foreignPriorityBag"]
-        ]"patentFileWrapperDataBa"patentFileWrapperDataBagg
+        ]
 
     def get_transactions(self, application_id: str) -> tp.List[Transaction]:
         """Patent application transactions by application id"""
